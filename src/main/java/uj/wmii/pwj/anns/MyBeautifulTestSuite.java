@@ -53,4 +53,8 @@ public class MyBeautifulTestSuite {
     public int testInteger(String param){
         return Integer.parseInt(param) + 1;
     }
+
+    @MyTest(params = {"5"}, outputs= {"6"})
+    public void testError(String param){
+    }
 }
