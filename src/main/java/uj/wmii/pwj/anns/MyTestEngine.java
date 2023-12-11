@@ -59,7 +59,7 @@ public class MyTestEngine {
                         System.out.printf("Error %s: the number of parameters is different from number of outputs\n", m.getName());
                         return TestResult.ERROR;
                     }else if( m.getReturnType() == Void.TYPE){
-                        System.out.printf("Error %s: returned type expected %s but void\n", m.getName(), m.getReturnType());
+                        System.out.printf("Error %s: returned type void\n", m.getName());
                         return TestResult.ERROR;
                     }
 
